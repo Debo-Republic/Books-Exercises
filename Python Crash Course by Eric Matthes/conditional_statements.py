@@ -20,3 +20,7 @@ else:
 	print(f"How did your {today} paper go ?")
 
 # and, or and membership functions 
+#Some important folks hate musrooms so had to put this in the file 
+
+toppings = ['peperoni', 'mushrooms', 'chicken']
+print('mushrooms' in toppings)
