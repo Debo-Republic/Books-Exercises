@@ -24,3 +24,18 @@ else:
 
 toppings = ['peperoni', 'mushrooms', 'chicken']
 print('mushrooms' in toppings)
+
+#non membership test 
+print('mooms' not in toppings)
+
+#conditional test exercises 
+ivy_leauges = ['Harvard', 'Stanford', 'Yale', 'Columbia', 'Brown', 'Duke']
+
+print(f"is maryland a ivy_league college ? I predict {'maryland' in ivy_leauges}")
+#F doesn't work with single paostrophes
+
+print(f" A staement that says 'Columbia is a great business school' is {'columbia'.title() in ivy_leauges}")
+
+#test for equality and inequality with strings 
+print(f"Captialisation matters in programming.Harvard and harvard are not the same \n {'harvard' == 'Harvard'}")
+
