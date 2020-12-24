@@ -56,3 +56,8 @@ programming_languages = {
 }
 print(programming_languages)
 
+#using get method to access the key value pair instead of []. 
+#defaulting to a message if a key value pair isn't found.
+
+
+print(programming_languages.get('points', 'This freaking key no existoo!'))
