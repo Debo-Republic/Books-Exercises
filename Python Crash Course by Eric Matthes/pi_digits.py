@@ -39,5 +39,6 @@ for line in lines:
     print("Print another line.")
 print("Printing by reading line by line and printing.\n")
 
-
-
+# Reading and replacing data from strings.
+message = "I freaking love poodles."
+print(message.replace('poodles', 'maine coon'))
