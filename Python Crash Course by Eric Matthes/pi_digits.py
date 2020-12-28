@@ -42,3 +42,10 @@ print("Printing by reading line by line and printing.\n")
 # Reading and replacing data from strings.
 message = "I freaking love poodles."
 print(message.replace('poodles', 'maine coon'))
+
+# Read an object line by line and start replacing words in the object.
+with open('learning_python.txt') as file_object:
+    lines = file_object.readlines()
+
+for line in lines:
+    print(line.replace('python', 'ruby on rails.'))
