@@ -1,0 +1,6 @@
+# Program to differentiate using dogs and cats.
+
+# Import all functions of methods contained in the vision module of FastAI.
+# 
+from fastai2.vision.all import *
+#Fast ai is meant to be used in repo environment where you can quickly do prototyping
